@@ -1,0 +1,48 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'shop/shop_home_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="search_delivery_boy">
+  <table width="291" border="1" class="table table-dark table-hover">
+    <tr>
+      <td colspan="7">Name 
+      <input type="text" name="select_boy" value="{{ boy_name }}" />
+      <input type="submit" name="Submit" value="Search" /></td>
+    </tr>
+    <tr>
+      <td width="14">Name</td>
+      <td width="23">Age</td>
+      <td width="23">Gender</td>
+      <td width="23">Address</td>
+      <td width="23">Phone</td>
+      <td width="23">Email</td>
+      <td width="116">&nbsp;</td>
+    </tr>
+      {% for i in boy_obj %}
+    <tr>
+      <td>&nbsp;{{ i.FirstName }}, {{ i.LastName}}</td>
+      <td>&nbsp;{{ i.Age}}</td>
+      <td>&nbsp;{{ i.Gender}}</td>
+      <td>&nbsp;{{ i.Place}}, {{ i.Post}}, {{ i.Pin}}</td>
+      <td>&nbsp;{{ i.Phone}}</td>
+      <td>&nbsp;{{ i.Email}}</td>
+      <td><p><a href="{% url 'edit_delivery_boy' boy_id=i.id  %}#about">Edit</a></p>
+      <p><a href="{% url 'delete_delivery_boy' boy_id=i.id  %}">Delete</a></p></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="7"><a href="#">
+        <a href="{% url 'add_delivery_boy' %}#about">Add New Delivery Boy</a>
+      </a></td>
+    </tr>
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

@@ -1,0 +1,38 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'admin/admin_home_index.html' %}
+{% block body %}
+
+<form id="form1" name="form1" method="post" action="">
+  <table width="200" border="1" class="table table-dark table-hover">
+    <tr>
+      <td>Name</td>
+      <td>Address</td>
+      <td>Phone</td>
+      <td>Email</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in shop_obj %}
+    <tr>
+      <td>&nbsp;{{ i.Name }}</td>
+      <td>&nbsp;{{ i.Place }}, {{ i.Post }}, {{ i.Pin }}</td>
+      <td>&nbsp;{{ i.Phone }}</td>
+      <td>&nbsp;{{ i.Email }}</td>
+        {% if i.LOGIN_ID.Type == 'shop' %}
+        <td><p><a href="{% url 'shop_block' shop_id=i.id %}">Block</a></p></td>
+            {% elif i.LOGIN_ID.Type == 'shop blocked' %}
+      <td><p><a href="{% url 'shop_unblock' shop_id=i.id %}">Unblock</a></p></td>
+        {% endif %}
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

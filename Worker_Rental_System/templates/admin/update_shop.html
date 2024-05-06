@@ -1,0 +1,46 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'admin/admin_home_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="{% url 'update_shop_action' %}#about">
+  <table width="200" border="1" class="table table-dark table-hover">
+    <tr>
+      <td>Name</td>
+      <td><input type="text" name="Name" value="{{ shop_obj.Name }}" required pattern="[A-Z a-z.]{3,25}"/></td>
+    </tr>
+    <tr>
+      <td>Place</td>
+      <td><input type="text" name="Place" value="{{ shop_obj.Place }}" required pattern="[A-Z a-z.]{3,25}"/></td>
+    </tr>
+    <tr>
+      <td>Post</td>
+      <td><input type="text" name="Post" value="{{ shop_obj.Post }}" required pattern="[A-Z a-z.]{3,25}"/></td>
+    </tr>
+    <tr>
+      <td>Pin</td>
+      <td><input type="text" name="Pin"  value="{{ shop_obj.Pin }}" required pattern="[0-9]{6}"/></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td><input type="text" name="Phone"  value="{{ shop_obj.Phone }}" required pattern="[6789][0-9]{9}"/></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="text" name="Email"  value="{{ shop_obj.Email }}" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="Submit" value="Update" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

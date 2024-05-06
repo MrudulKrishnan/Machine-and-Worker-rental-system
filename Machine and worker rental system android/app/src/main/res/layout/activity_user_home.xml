@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+
+    android:layout_gravity="center"
+    tools:context=".user_home">
+
+    <Button
+        android:id="@+id/B2_SendRequestWorkers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send request to workers" />
+
+    <Button
+        android:id="@+id/B5_UserViewWorkRequestStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view Work request status" />
+
+    <Button
+        android:id="@+id/B3_UserChatWithWorkers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chat with workers" />
+
+    <Button
+        android:id="@+id/B4_UserSendRequestForProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send request for product" />
+
+    <Button
+        android:id="@+id/B10_ViewProductRequestStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view product request status" />
+
+    <Button
+        android:id="@+id/B7_UserSendRatingReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send rating and review" />
+
+    <Button
+        android:id="@+id/B8_UserSendComplaintViewReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send complaint and view reply" />
+
+    <Button
+        android:id="@+id/B9_UserLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout" />
+</LinearLayout>

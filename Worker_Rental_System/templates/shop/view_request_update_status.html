@@ -1,0 +1,53 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'shop/shop_home_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table width="200" border="1" class="table table-dark table-hover">
+    <tr>
+      <td>Username</td>
+      <td>Address</td>
+      <td>Phone</td>
+      <td>Product</td>
+      <td>Details</td>
+      <td>Stock</td>
+      <td>Price/day</td>
+      <td>Image</td>
+      <td>Date</td>
+      <td>ReturnDate</td>
+
+      <td>&nbsp;Status</td>
+    </tr>
+      {% for i in request_obj %}
+    <tr>
+      <td>&nbsp;{{ i.name }}</td>
+      <td>&nbsp;{{ i.address }}</td>
+      <td>&nbsp;{{ i.phone }}</td>
+      <td>&nbsp;{{ i.PRODUCT_ID.Product_Name }}</td>
+      <td>&nbsp;{{ i.PRODUCT_ID.Product_Details }}</td>
+      <td>&nbsp;{{ i.PRODUCT_ID.Stock }}</td>
+      <td>&nbsp;{{ i.PRODUCT_ID.Price_per_day }}</td>
+      <td>&nbsp;<img src="{{ i.PRODUCT_ID.Image.url }}" alt="error" style="width: 50px; height: 50px"/></td>
+      <td>&nbsp;{{ i.Date }}</td>
+      <td>&nbsp;{{ i.ReturnDate }}</td>
+
+        {% if i.Status == 'pending' %}
+          <td><p><a href="{% url 'date_assign' request_id=i.id %}#about">accept</a></p>
+          <p><a href="{% url 'product_reject' request_id=i.id %}#about">Reject</a></p></td>
+        {% elif i.Status == 'Accepted' %}
+            <td><p>Accepted</p></td>
+        {% elif i.Status == 'rejected' %}
+            <td><p>Rejected</p></td>
+        {% endif %}
+    </tr>{% endfor %}
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

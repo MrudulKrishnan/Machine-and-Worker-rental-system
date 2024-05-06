@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_add_new_skill.xml" value="0.1644021739130435" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_assign_product_user.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_chat_with_user.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_chat_with_users.xml" value="0.14945652173913043" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_chat_with_workers.xml" value="0.14945652173913043" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_chatwithfriends.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom1.xml" value="0.19157608695652173" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_chat_with_user.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_manage_skill.xml" value="0.2" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_send_request_for_workers.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_assigend_work_boy.xml" value="0.21" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_product.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_product_request_status.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_product_worker.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_request_update_response.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_custom_view_worker_response.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_delivery_boy_home.xml" value="0.21" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_delivery_status_update.xml" value="0.11614583333333334" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_login.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_main.xml" value="0.18070652173913043" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_manage_skill.xml" value="0.15625" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_product_request.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_request_send_for_worker.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_new_complaint.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_product_request.xml" value="0.15625" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_product_request_worker.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_rating_review.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_rating_review_user.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_send_request_for_workers.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_sent_complaints_view_response.xml" value="0.22" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_sent_new_complaint_user.xml" value="0.22" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_test.xml" value="0.13229166666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_track_order.xml" value="0.17980072463768115" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_update_response.xml" value="0.17980072463768115" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_user_home.xml" value="0.2" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_user_sent_complaints_view_response.xml" value="0.1328125" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_view_assigned_work_boy.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_view_product_request_status.xml" value="0.14945652173913043" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_view_product_status_user.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_view_request_update_response.xml" value="0.1526268115942029" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_view_worker_response.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_worker_track_product.xml" value="0.16530797101449277" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_worker_view_product_request_status.xml" value="0.146875" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/activity_workers_home.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/Machine and worker rental system android/app/src/main/res/layout/row_message.xml" value="0.18568840579710144" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_add_new_skill.xml" value="0.213768115942029" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_custom_manage_skill.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_login.xml" value="0.15307971014492755" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_main.xml" value="0.15307971014492755" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_manage_skill.xml" value="0.1171875" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_sent_complaints_view_response.xml" value="0.13489583333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_view_request_update_response.xml" value="0.18333333333333332" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Machine and worker rental system/app/src/main/res/layout/activity_workers_home.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
